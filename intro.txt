@@ -1,0 +1,1 @@
+This is the first file of this repo. This repo is meant to be a part of my assignment 2 in Intro to IT class. 

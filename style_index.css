@@ -1,0 +1,55 @@
+body {
+    color: white;
+    background-color: black;
+}
+
+#navigator {
+    background-color: yellow;
+    color: black;
+    height: 4em;
+    width: 100%;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+/* #na_li {
+    position: absolute;
+    display: flex
+    
+} */
+
+
+
+#body {
+    position: relative;
+    top: 5rem;
+
+}
+
+
+#sec {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#left {
+    max-width: 30%;
+    font-size: 1.5rem;
+    /* background-color: grey; */
+    position: relative;
+    left: -1.5rem;
+    top: 3rem;
+}
+
+#right {
+    
+    
+}
