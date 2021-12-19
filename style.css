@@ -96,7 +96,17 @@
     text-align:center
 }
 
+#sub_menu_feedback{
+    display: none
+}
 
+#feedback:hover #sub_menu_feedback{
+    display: block;
+    position: absolute;
+    width: 10rem;
+    top: 3rem;
+    background-color: whitesmoke;
+}
 
 
 
@@ -107,6 +117,7 @@
 }
 
 #fixed_body {
+    /* background-color: green; */
     position: absolute;
     top: 5em;
     width:100%;
@@ -115,7 +126,8 @@
 }
 
 
-#machine_learning{
+#topic {
+    /* background-color: blue; */
     color: white;
     height: 5rem;
     width: 100%;
@@ -126,7 +138,7 @@
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 #paras{
@@ -134,5 +146,37 @@
     font-family: montserrat;
     font-size: 2rem;
     padding: 2rem 7rem 7rem 7rem;
+}
+
+
+
+/* For contact us */
+
+#fixed_body p{
+    display: block;
+    text-align: center;
+    font-family: montserrat;
+    font-size: 40px;
+    top: 7rem;
+    color:white;
+}
+
+#wrapper {
+    margin: 0 auto;
+    color: white;
+}
+
+
+#wrapper label input{
+    display:block;
+    margin: 0.5 em 0;
+    font-size: 18px;
+    padding: 0.5em;
+}
+
+#submit{
+    font-size:20px;
+    color: red;
+    padding: 2%
 }
 

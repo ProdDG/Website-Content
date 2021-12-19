@@ -23,7 +23,6 @@ body{
     color: rgb(0, 255, 221);
 }
 #picture{
-    display: flex;
     position: relative;
     top: 160px;
     left: 57%;
