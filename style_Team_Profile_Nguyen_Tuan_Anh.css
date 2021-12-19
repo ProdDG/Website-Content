@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(248, 230, 180);
+    background-image:url(https://tophinhanhdep.com/wp-content/uploads/2021/09/Gradient-Wallpapers.png);
+}
+
+#personal_info{
+    max-width: 50%;
+    font-size: 28px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 1;
+}
+#pinfoheading{
+    font-size: 1.7rem;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    bottom: 40px;
+}
+#picture{
+    display: flex;
+    position: relative;
+    bottom: 400px;
+    left: 57%;
+}

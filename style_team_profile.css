@@ -27,7 +27,7 @@
 
 #team_name {
     position: relative
-    width: 100%
+    width 100%
 }
 
 .title {
@@ -53,10 +53,10 @@
 }
 
 .left {
-    max-width: 100%;
+    max-width: 50%;
     font-size: 1.5rem;
     background-color: grey;
-    position: static;
+    position: relative;
     display:flex;
 }
 
@@ -65,5 +65,5 @@
     font-size: 1.5rem;
     background-color: purple;
     display:flex;
-    position: static;
+    position: relative; left: 100px;
 }
