@@ -1,8 +1,9 @@
-var name = document.getElementById("name_field");
-var email = document.getElementById("email_field");
-var num = document.getElementById("num_field");
-var button = document.getElementById("submit");
+var name = document.getElementById("name");
+var email = document.getElementById("email");
+var num = document.getElementById("num");
+var button = document.getElementById("btn");
 
 button.addEventListener("click",function(){
-    alert();
+    localStorage.name = name.value;
 });
+
